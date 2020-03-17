@@ -7,3 +7,16 @@
 21~40 : D
 0~20 : F
 """
+
+socre = int( input("점수를 입력 해주세요."))
+
+if socre >= 81 :
+    print("A")
+if socre >= 61 :
+    print("B")
+if socre >= 41 :
+    print("C")
+if socre >= 21 :
+    print("D")
+else:
+    print("F")

@@ -2,3 +2,11 @@
 ABCD 순으로 정렬하시오.
 
 namelist = ['Mary', 'Sams', 'Aimy', 'Tom', 'Michale', 'Bob', 'Kelly']"""
+
+namelist = ['Mary', 'Sams', 'Aimy', 'Tom', 'Michale', 'Bob', 'Kelly']
+
+namelist.sort()
+
+print( namelist)
+
+

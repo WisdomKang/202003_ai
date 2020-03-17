@@ -6,3 +6,10 @@ file = ['exit.py',hi.py','playdata.hwp',intro.jpg']
 결과:
 file = ['exit',hi','playdata',intro']
 """
+
+file = ['exit.py','hi.py','playdata.hwp','intro.jpg']
+
+for i in range( len(file)):
+    file[i] = file[i].split(".")[0]
+
+print(file)
